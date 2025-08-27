@@ -2,6 +2,7 @@ package c05_structures;
 
 import java.util.AbstractList;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class List {
 
@@ -10,6 +11,7 @@ public class List {
         // Declaracion y creacion
         ArrayList<String> names = new ArrayList<>();
         var numbers = new ArrayList<Integer>();
+        var numbers2 = Arrays.asList("123", "321");
 
         // Tamaño
         System.out.println("Tamaño names: " + names.size());

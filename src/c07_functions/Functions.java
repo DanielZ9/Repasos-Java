@@ -1,6 +1,5 @@
 package c07_functions;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -16,6 +15,9 @@ public class Functions {
 
         String[] emails = {"dz@dz.com", "fq@fq.com"};
         sendEmailToUser(emails);
+
+        var emailsList = new ArrayList<>(Arrays.asList("dz@dz.com", "fq@fq.com"));
+        System.out.println("El array list: " + sendEmailToUser(emailsList));
 
         System.out.println(confirmSendEmail());
         //System.out.println(sendEmailWithState("dq@dq.com"));
@@ -55,6 +57,12 @@ public class Functions {
         for (String email : emails) {
             sendEmailToUser(email);
         }
+
+    }
+
+    public static ArrayList<String> sendEmailToUser(ArrayList<String> emails) {
+
+        return emails;
 
     }
 

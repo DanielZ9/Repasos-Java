@@ -1,4 +1,4 @@
-package c08_oop;
+package c08_oop.classesExercises;
 
 public class Book {
 

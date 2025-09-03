@@ -1,6 +1,6 @@
 package c08_test_oop;
 
-import c08_oop.Person;
+import c08_oop.classesExercises.Person;
 
 public class Classes {
 

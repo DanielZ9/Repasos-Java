@@ -1,4 +1,4 @@
-package c08_oop;
+package c08_oop.classesExercises;
 
 import java.util.Arrays;
 
@@ -37,7 +37,7 @@ public class ClassesExercises {
         var persons = Arrays.asList(person1, person2, person3);
         System.out.println(persons);
         for (Person person : persons) {
-            System.out.println(person.name);
+            System.out.println(person.getName());
         }
 
         var product = new Product("Arroz", 3000);

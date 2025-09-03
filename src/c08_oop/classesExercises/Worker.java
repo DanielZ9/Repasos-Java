@@ -1,6 +1,4 @@
-package c08_oop;
-
-import javax.xml.namespace.QName;
+package c08_oop.classesExercises;
 
 public class Worker {
 

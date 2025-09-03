@@ -1,5 +1,7 @@
 package c08_oop;
 
+import c08_oop.classesExercises.Person;
+
 public class Classes {
 
     public static void main(String[] args) {

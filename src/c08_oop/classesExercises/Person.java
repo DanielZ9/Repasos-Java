@@ -1,9 +1,9 @@
-package c08_oop;
+package c08_oop.classesExercises;
 
 public class Person {
 
     // Atributos
-    protected String name;
+    private String name;
     private int age;
     final private String id;
 
@@ -23,6 +23,10 @@ public class Person {
     // Getters
     public String getId() {
         return id;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public int getAge() {

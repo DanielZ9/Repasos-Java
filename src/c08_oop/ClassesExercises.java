@@ -31,9 +31,9 @@ public class ClassesExercises {
         var worker = new Worker("Daniel", 627000);
         worker.showSalary();
 
-        var person1 = new Person("Daniel", 25);
-        var person2 = new Person("Diego", 45);
-        var person3 = new Person("Sirley", 46);
+        var person1 = new Person("Daniel", 25, "1");
+        var person2 = new Person("Diego", 45, "2");
+        var person3 = new Person("Sirley", 46, "3");
         var persons = Arrays.asList(person1, person2, person3);
         System.out.println(persons);
         for (Person person : persons) {
